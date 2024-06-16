@@ -1,0 +1,214 @@
+
+"Default.ClipEmpty_Rifle"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"1.0"
+	"soundlevel"	"SNDLVL_NORM"
+	"pitch"		"PITCH_NORM"
+	"wave"		"weapons/weaponempty.wav"
+}
+
+"Player.ReloadRustle"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"VOL_NORM"
+	"soundlevel"		"SNDLVL_NORM"
+	"pitch"			"PITCH_NORM"
+	"wave"     		"player/reload_rustle.wav"
+}
+
+//K98
+"Weapon_Kar.Shoot"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"1.0"
+	"soundlevel"	"SNDLVL_150dB"
+	"pitch"		"PITCH_NORM"
+	"wave"		"^weapons/k98_shoot.wav"
+}
+
+"Weapon_K98.BoltBack1"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"1.0"
+	"soundlevel"	"SNDLVL_NORM"
+	"pitch"		"PITCH_NORM"
+	"wave"		"weapons/k98_boltback1.wav"
+}
+
+"Weapon_K98.BoltBack2"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"1.0"
+	"soundlevel"	"SNDLVL_NORM"
+	"pitch"		"PITCH_NORM"
+	"wave"		"weapons/k98_boltback2.wav"
+}
+
+"Weapon_K98.BoltForward1"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"1.0"
+	"soundlevel"	"SNDLVL_NORM"
+	"pitch"		"PITCH_NORM"
+	"wave"		"weapons/k98_boltforward1.wav"
+}
+"Weapon_K98.BoltForward2"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"1.0"
+	"soundlevel"	"SNDLVL_NORM"
+	"pitch"		"PITCH_NORM"
+	"wave"		"weapons/k98_boltforward2.wav"
+}
+
+"Weapon_K98.ClipIn"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"1.0"
+	"soundlevel"	"SNDLVL_NORM"
+	"pitch"		"PITCH_NORM"
+	"wave"		"weapons/k98_clipin.wav"
+}
+
+"Weapon_K98.ClipIn2"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		".5"
+	"soundlevel"	"SNDLVL_NORM"
+	"pitch"		"PITCH_NORM"
+	"wave"		"weapons/k98_clipin2.wav"
+}
+
+"Weapon_K98.ClipOut"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.0"
+	"soundlevel"	"SNDLVL_NORM"
+	"pitch"		"PITCH_NORM"
+	"wave"		"weapons/k98_clipout.wav"
+}
+
+"Weapon_K98.Draw"
+{
+	"channel"		"CHAN_BODY"
+	"volume"		"1.0"
+	"soundlevel"	"SNDLVL_NORM"
+	"pitch"		"PITCH_NORM"
+	"wave"		"weapons/draw_rifle.wav"
+}
+
+"Weapon_K98.SinglShotReload"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		".77"
+	"soundlevel"	"SNDLVL_65dB"
+	"pitch"		"PITCH_NORM"
+	"wave"		"weapons/k98_singleshotreload.wav"
+}
+
+"Weapon_K98.WorldReload"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		".77"
+	"soundlevel"	"SNDLVL_65dB"
+	"pitch"		"PITCH_NORM"
+	"wave"		"weapons/k98_worldreload.wav"
+}
+
+//KarScoped
+"Weapon_KarScoped.Shoot"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"1.0"
+	"soundlevel"	"SNDLVL_150dB"
+	"pitch"		"PITCH_NORM"
+	"wave"		"^weapons/k98scoped_shoot.wav"
+}
+
+//Grenade
+
+"BaseGrenade.BounceSound"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"0.7"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave" "weapons/grenade_hit1.wav"
+	"wave" "weapons/grenade_hit2.wav"
+	"wave" "weapons/grenade_hit3.wav"
+}
+
+//Rifle Grenade
+
+"Weapon_Grenade.Shoot"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"1.0"
+	"soundlevel"	"SNDLVL_150dB"
+	"pitch"		"PITCH_NORM"
+	"wave"		"^weapons/grenade_shoot.wav"
+}
+
+"Weapon_Grenade.WorldReloadGarand"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		".77"
+	"soundlevel"	"SNDLVL_65dB"
+	"pitch"		"PITCH_NORM"
+	"wave"		"weapons/grenade_worldreloadgarand.wav"
+}
+
+"Weapon_Grenade.ReloadGarand1"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"1.0"
+	"soundlevel"	"SNDLVL_NORM"
+	"pitch"		"PITCH_NORM"
+	"wave"		"weapons/grenade_reloadgarand1.wav"
+}
+
+"Weapon_Grenade.ReloadGarand2"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"1.0"
+	"soundlevel"	"SNDLVL_NORM"
+	"pitch"		"PITCH_NORM"
+	"wave"		"weapons/grenade_reloadgarand2.wav"
+}
+
+"Weapon_Grenade.ReloadGarand3"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"1.0"
+	"soundlevel"	"SNDLVL_NORM"
+	"pitch"		"PITCH_NORM"
+	"wave"		"weapons/grenade_reloadgarand3.wav"
+}
+
+"Weapon_Grenade.ReloadGarand4"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"1.0"
+	"soundlevel"	"SNDLVL_NORM"
+	"pitch"		"PITCH_NORM"
+	"wave"		"weapons/grenade_reloadgarand4.wav"
+}
+
+"Weapon_Grenade.WorldReloadK98"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		".77"
+	"soundlevel"	"SNDLVL_65dB"
+	"pitch"		"PITCH_NORM"
+	"wave"		"weapons/grenade_worldreloadk98.wav"
+}
+
+"Weapon_Grenade.ReloadK98"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"1.0"
+	"soundlevel"	"SNDLVL_NORM"
+	"pitch"		"PITCH_NORM"
+	"wave"		"weapons/grenade_reloadk98.wav"
+}

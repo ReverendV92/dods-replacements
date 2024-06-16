@@ -1,0 +1,83 @@
+
+"Default.ClipEmpty_Rifle"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"1.0"
+	"soundlevel"	"SNDLVL_NORM"
+	"pitch"		"PITCH_NORM"
+	"wave"		"weapons/weaponempty.wav"
+}
+
+"Player.ReloadRustle"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"VOL_NORM"
+	"soundlevel"		"SNDLVL_NORM"
+	"pitch"			"PITCH_NORM"
+	"wave"     		"player/reload_rustle.wav"
+}
+
+//Garand
+"Weapon_Garand.Shoot"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"1.0"
+	"soundlevel"	"SNDLVL_150dB"
+	"pitch"		"PITCH_NORM"
+	"wave"		"^weapons/garand_shoot.wav"
+}
+
+"Weapon_Garand.ClipIn1"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"1.0"
+	"soundlevel"	"SNDLVL_NORM"
+	"pitch"		"PITCH_NORM"
+	"wave"		"weapons/garand_clipin1.wav"
+}
+
+"Weapon_Garand.ClipIn2"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"1.0"
+	"soundlevel"	"SNDLVL_NORM"
+	"pitch"		"PITCH_NORM"
+	"wave"		"weapons/garand_clipin2.wav"
+}
+
+"Weapon_Garand.ClipDing"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.0"
+	"soundlevel"	"SNDLVL_NORM"
+	"pitch"		"PITCH_NORM"
+	"wave"		"weapons/garand_clipding.wav"
+}
+
+
+"Weapon_Garand.BoltForward"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"1.0"
+	"soundlevel"	"SNDLVL_NORM"
+	"pitch"		"PITCH_NORM"
+	"wave"		"weapons/garand_boltforward.wav"
+}
+
+"Weapon_Garand.Draw"
+{
+	"channel"		"CHAN_BODY"
+	"volume"		"1.0"
+	"soundlevel"	"SNDLVL_NORM"
+	"pitch"		"PITCH_NORM"
+	"wave"		"weapons/draw_rifle.wav"
+}
+
+"Weapon_Garand.WorldReload"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		".77"
+	"soundlevel"	"SNDLVL_65dB"
+	"pitch"		"PITCH_NORM"
+	"wave"		"weapons/garand_worldreload.wav"
+}

@@ -1,0 +1,97 @@
+
+//////////////////////////////
+// Mk.II
+//////////////////////////////
+
+weapondata
+{
+
+	printname "Mk.II"
+	viewmodel models/weapons/v_grenade.mdl
+	playermodel models/weapons/w_grenade.mdl
+	anim_prefix grenade
+	bucket 4
+	bucket_position 0
+	bucket_360 3
+	bucket_position_360 0
+
+	primary_ammo grenade
+	clip_size -1
+	default_clip 1
+	
+	secondary_ammo None
+	clip2_size -1
+	default_clip2 -1
+
+	weight 0
+	rumble 9
+	item_flags 18
+
+	sounddata
+	{
+
+		// When the grenade is 'thrown'
+		single_shot WeaponFrag.Throw
+
+		// When the grenade is 'lobbed'
+		double_shot WeaponFrag.Throw
+
+		// When the grenade is 'rolled'
+		special1 WeaponFrag.Roll
+
+	}
+
+	texturedata
+	{
+
+		weapon
+		{
+
+			font weaponicons
+			character k
+
+		}
+
+		weapon_s
+		{
+
+			font weaponiconsselected
+			character k
+
+		}
+
+		weapon_small
+		{
+
+			font weaponiconssmall
+			character k
+
+		}
+
+		ammo
+		{
+
+			font weaponiconssmall
+			character v
+
+		}
+
+		crosshair
+		{
+
+			font crosshairs
+			character Q
+
+		}
+
+		autoaim
+		{
+
+			font crosshairs
+			character Q
+
+		}
+
+	}
+
+}

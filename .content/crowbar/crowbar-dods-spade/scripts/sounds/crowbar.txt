@@ -1,0 +1,61 @@
+
+"Player.ReloadRustle"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"VOL_NORM"
+	"soundlevel"		"SNDLVL_NORM"
+	"pitch"			"PITCH_NORM"
+	"wave"     		"player/reload_rustle.wav"
+}
+
+"Weapon_Spade.Swing"
+{
+	"channel" "CHAN_WEAPON"
+	"volume" "1.0"
+	"soundlevel" "SNDLVL_NORM"
+	"pitch" "90, 110"
+	"wave" "weapons/blade_swing.wav"
+	
+}
+
+"Weapon_Spade.Draw"
+{
+	"channel" "CHAN_BODY"
+	"volume" "1.0"
+	"soundlevel" "SNDLVL_NORM"
+	"pitch" "PITCH_NORM"
+	"wave" "weapons/draw_spade.wav"
+}
+
+"Weapon_Spade.Holster"
+{
+	"channel" "CHAN_BODY"
+	"volume" "1.0"
+	"soundlevel" "SNDLVL_NORM"
+	"pitch" "PITCH_NORM"
+	"wave" "weapons/draw_spade.wav"
+}
+
+"Weapon_Spade.HitPlayer"
+{
+	"channel" "CHAN_ITEM"
+	"volume" "1.0"
+	"soundlevel" "SNDLVL_NORM"
+	"pitch" "PITCH_NORM"
+	"rndwave"
+	{
+	"wave" "weapons/blade_hit1.wav"
+	"wave" "weapons/blade_hit2.wav"
+	"wave" "weapons/blade_hit3.wav"
+	"wave" "weapons/blade_hit4.wav"
+	}
+}
+
+"Weapon_Spade.HitWorld"
+{
+	"channel" "CHAN_ITEM"
+	"volume" "1.0"
+	"soundlevel" "SNDLVL_NORM"
+	"pitch" "90, 110"
+	"wave" "weapons/blade_hitworld.wav"
+}

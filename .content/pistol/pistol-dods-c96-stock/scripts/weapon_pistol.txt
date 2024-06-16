@@ -1,0 +1,119 @@
+
+//////////////////////////////
+// C96
+//////////////////////////////
+
+weapondata
+{
+
+	printname "C96"
+	viewmodel models/weapons/v_pistol.mdl
+	playermodel models/weapons/w_pistol.mdl
+	anim_prefix pistol
+	bucket 1
+	bucket_position 0
+	bucket_360 0
+	bucket_position_360 0
+
+	clip_size 20
+	default_clip 20
+	primary_ammo pistol
+
+	weight 0
+	rumble 2
+	item_flags 36
+
+	sounddata
+	{
+
+		// Firing when the weapon is empty
+		empty weapon_pistol.empty
+
+		// When a player reloads
+		reload Weapon_C96.Draw
+		reload_npc Weapon_C96.WorldReload
+
+		single_shot weapon_pistol.single
+		single_shot_npc	weapon_pistol.npc_single
+
+		// special1 Weapon_C96.Draw
+		// special2 Weapon_C96.WorldReload
+		// burst Weapon_C96.Shoot
+
+	}
+
+	texturedata
+	{
+
+		weapon
+		{
+			font WeaponIcons
+			character d
+		}
+		
+		weapon_s
+		{	
+			font WeaponIconsSelected
+			character d
+		}
+		
+		weapon_small
+		{
+			font WeaponIconsSmall
+			character d
+		}
+		
+		ammo
+		{
+			font WeaponIconsSmall
+			character p
+		}
+		
+		crosshair
+		{
+				font crosshairs
+				// font HL2MModCrosshairs
+				character Q
+		}
+		
+		zoom
+		{
+				font crosshairs
+				// font HL2MModCrosshairs
+				character Q
+		}
+		
+		autoaim
+		{
+			font crosshairs
+			// font HL2MModCrosshairs
+			character Q
+		}
+		
+		zoom_autoaim
+		{
+			font crosshairs
+			// font HL2MModCrosshairs
+			character Q
+		}
+
+	}
+
+	// MMod
+	Ironsight
+	{
+		"forward" "-3.5"
+		"right" "-6.235"
+		"up" "2.75"
+		"roll" "0"
+		"pitch" "-1"
+		"yaw" "0"
+		"fov" "-15"
+		"time" "0.20"
+		"crosshair" "1"
+		"chromatic" "3.5"
+		"blur" "1.0"
+		"adjustaccuracy" "0.5" // SMod-only
+	}
+
+}

@@ -1,0 +1,9 @@
+
+vertexlitgeneric
+{
+
+	$basetexture models/weapons/hands/v_us_sleeve_d
+	$lightwarptexture dev/identitylightwarp
+	$halflambert 1
+
+}

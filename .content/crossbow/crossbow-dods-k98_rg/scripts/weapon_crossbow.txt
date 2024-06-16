@@ -1,0 +1,167 @@
+
+//////////////////////////////
+// K98k Rifle Grenade
+//////////////////////////////
+
+weapondata
+{
+
+	printname "K98k Rifle Grenade"
+	viewmodel models/weapons/v_crossbow.mdl
+	playermodel models/weapons/w_crossbow.mdl
+	anim_prefix ar2
+	bucket 3
+	bucket_position 1
+	bucket_360 0
+	bucket_position_360 2
+
+	clip_size 1
+	default_clip 1
+	primary_ammo xbowbolt
+
+	weight 0
+	rumble 6
+	item_flags 38
+
+	sounddata
+	{
+
+		// When the player fires
+		single_shot Weapon_Grenade.Shoot
+
+		// When the player reloads
+		reload Player.ReloadRustle
+
+		// Special sound 1
+		special1 Weapon_Grenade.ReloadGarand1
+
+		// Special sound 2
+		special1 weapon_crossbow.boltfly
+
+	}
+
+	texturedata
+	{
+
+		weapon
+		{
+
+			file sprites/hud/dod_weapons01_glow_small
+			x 327
+			y 325
+			width 188
+			height 34
+			// file sprites/hud/dod_weapons01
+			// x 652
+			// y 650
+			// width 366
+			// height 67
+
+		}
+
+		weapon_s
+		{	
+
+			file sprites/hud/dod_weapons01_glow_small
+			x 327
+			y 325
+			width 188
+			height 34
+			// file sprites/hud/dod_weapons01
+			// x 652
+			// y 650
+			// width 366
+			// height 67
+
+		}
+
+		weapon_small
+		{
+
+			file sprites/hud/dod_weapons01_glow_small
+			x 327
+			y 325
+			width 188
+			height 34
+			// file sprites/hud/dod_weapons01
+			// x 652
+			// y 650
+			// width 366
+			// height 67
+
+		}
+
+		ammo
+		{
+
+			file sprites/hud/dod_weapons01_glow_small
+			x 376
+			y 255
+			width 39
+			height 11
+			// file sprites/hud/dod_weapons01
+			// x 752
+			// y 510
+			// width 78
+			// height 22
+
+		}
+
+		crosshair
+		{
+
+			font crosshairs
+			character Q
+
+		} 
+
+		autoaim
+		{
+
+			file sprites/crosshairs
+			x 0
+			y 96
+			width 24
+			height 24
+
+		}
+
+		zoom
+		{
+
+			font crosshairs
+			character Q
+
+		} 
+
+		zoom_autoaim
+		{
+
+			file sprites/crosshairs
+			x 24
+			y 112
+			width 104
+			height 16
+
+		}
+
+	}
+
+	csviewmodel 1 // (Boolean) Adjust the origin of the weapon view model to show a bit more of it
+	dynscope 1 // (Boolean) Toggle Render Target scopes on this weapon
+	movespeedaim 0.2 // (Float) Adjust the movement speed while in iron sights
+	ironsight
+	{
+
+		forward -12.5 // (Float) Move the view model on the forward axis while in iron sights
+		right -6.977 // (Float) Move the view model on the right axis while in iron sights
+		up 3.084 // (Float) Move the view model on the up axis while in iron sights
+		pitch 0 // (Float) Rotate the view model on the pitch axis while in iron sights
+		yaw 0 // (Float) Rotate the view model on the yaw axis while in iron sights
+		roll 0 // (Float) Rotate the view model on the roll axis while in iron sights
+		fov 0 // (Integer) Adjust the field of view by this much while in iron sights
+		time 0.2 // (Float) Time it takes to toggle in and out of iron sights
+
+	}
+
+}

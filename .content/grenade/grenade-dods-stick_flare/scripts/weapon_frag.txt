@@ -1,0 +1,98 @@
+
+//////////////////////////////
+// Stielhandgranate
+//////////////////////////////
+
+weapondata
+{
+
+	printname "Stielhandgranate"
+	viewmodel models/weapons/v_grenade.mdl
+	playermodel models/weapons/w_grenade.mdl
+	anim_prefix grenade
+	bucket 4
+	bucket_position 0
+	bucket_360 3
+	bucket_position_360 0
+
+	clip_size -1
+	clip2_size -1
+	default_clip 1
+	default_clip2 -1
+	primary_ammo grenade
+
+	weight 0
+	rumble 9
+	item_flags 16
+
+	sounddata
+	{
+
+		// When the grenade is 'thrown'
+		single_shot Weapon_Grenade.Throw
+
+		// When the grenade is 'lobbed'
+		double_shot Weapon_Grenade.Throw
+
+		// When the grenade is 'rolled'
+		special1 Weapon_Grenade.Throw
+
+	}
+
+	texturedata
+	{
+
+		weapon
+		{
+
+			font weaponicons
+			character k
+
+		}
+
+		weapon_s
+		{
+
+			font weaponiconsselected
+			character k
+
+		}
+
+		weapon_small
+		{
+
+			font weaponiconssmall
+			character k
+
+		}
+
+		ammo
+		{
+
+			font weaponiconssmall
+			character v
+
+		}
+
+		crosshair
+		{
+
+			font crosshairs
+			character Q
+
+		}
+
+		autoaim
+		{
+
+			file sprites/crosshairs
+			x 48
+			y 72
+			width 24
+			height 24
+
+		}
+
+	}
+
+}

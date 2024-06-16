@@ -1,0 +1,122 @@
+
+//////////////////////////////
+// Bazooka
+//////////////////////////////
+
+weapondata
+{
+
+	printname Bazooka
+	viewmodel models/weapons/v_rpg.mdl
+	playermodel models/weapons/w_rocket_launcher.mdl
+	anim_prefix "missile launcher"
+	bucket 4
+	bucket_position 1
+	bucket_360 3
+	bucket_position_360 1
+	autoswitchfrom 0
+	autoswitchto 0
+
+	primary_ammo rpg_round
+	clip_size -1
+	default_clip 3
+
+	secondary_ammo "None"
+	clip2_size -1
+	default_clip2 -1
+
+	weight 0
+	rumble 8
+	item_flags 6
+
+	sounddata
+	{
+
+		// When a player fires the rocket
+		single_shot Weapon_Bazooka.Shoot
+
+		// When an NPC fires the rocket
+		// single_shot_npc weapon_rpg.npc_single
+
+		// Turning the laser-guide mode on
+		special1 weapon_rpg.laseron
+
+		// Turning the laser-guide mode off
+		special2 weapon_rpg.laseroff
+
+		// When a player reloads
+		reload Weapon_Bazooka.WorldReload
+
+	}
+
+	texturedata
+	{
+
+		weapon
+		{
+			font WeaponIcons
+			character i
+		}
+		
+		weapon_s
+		{	
+			font WeaponIconsSelected
+			character i
+		}
+		
+		weapon_small
+		{
+			font WeaponIconsSmall
+			character i
+		}
+		
+		ammo
+		{
+			font WeaponIconsSmall
+			character x
+		}
+		
+		crosshair
+		{
+				font crosshairs
+				character Q
+		}
+		
+		zoom
+		{
+				font crosshairs
+				character Q
+		}
+		
+		autoaim
+		{
+			font crosshairs
+			character Q
+		}
+		
+		zoom_autoaim
+		{
+			font crosshairs
+			character Q
+		}
+
+	}
+
+	// MMod
+	Ironsight
+	{
+		forward -5
+		right -4.53
+		up 2
+		roll 0
+		pitch 0
+		yaw 0
+		fov -15
+		time 0.2
+		crosshair 1
+		chromatic 3.5
+		blur 1
+		adjustaccuracy 1 // SMod-only
+	}
+
+}

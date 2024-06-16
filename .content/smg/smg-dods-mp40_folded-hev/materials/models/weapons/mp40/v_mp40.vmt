@@ -1,0 +1,40 @@
+
+vertexlitgeneric
+{
+
+	$basetexture models/weapons/mp40/v_mp40_d
+	$bumpmap models/weapons/mp40/v_mp40_b
+	$lightwarptexture dev/identitylightwarp
+
+	$halflambert 1
+	$ambientocclusion 1
+	$ambientoccltexture models/weapons/mp40/v_mp40_ao
+	$nocull 0
+
+	$phong 1
+	//$phongexponent 69
+	$phongexponent models/weapons/mp40/v_mp40_x
+	$phongboost 1
+	$phongfresnelranges "[ 0.1 0.8 0.8 ]"
+	$phongalbedotint 1
+
+	//$detail detail/metal_detail_01
+	//$detailscale 8
+	//$detailblendfactor 0.95
+	//$detailblendmode 0
+
+	$color2 "[ 1 1 1 ]"
+	Proxies
+	{
+
+		Equals
+		{
+
+			srcvar1 $color2
+			resultVar $color
+
+		}
+
+	}
+
+}

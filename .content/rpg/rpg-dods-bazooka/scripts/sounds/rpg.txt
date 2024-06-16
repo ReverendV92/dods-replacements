@@ -1,0 +1,56 @@
+
+"Player.ReloadRustle"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"VOL_NORM"
+	"soundlevel"		"SNDLVL_NORM"
+	"pitch"			"PITCH_NORM"
+	"wave"     		"player/reload_rustle.wav"
+}
+
+//Panzerschreck
+
+"Weapon_Grenade.Draw"
+{
+	"channel"		"CHAN_BODY"
+	"volume"		"1.0"
+	"soundlevel"	"SNDLVL_NORM"
+	"pitch"		"PITCH_NORM"
+	"wave"		"weapons/draw_grenade.wav"
+}
+
+"Weapon_Bazooka.Shoot"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"1.0"
+	"soundlevel"	"SNDLVL_150dB"
+	"pitch"		"PITCH_NORM"
+	"wave"		"^weapons/rocket1.wav"
+}
+
+"Weapon_Bazooka.ClipIn"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"1.0"
+	"soundlevel"	"SNDLVL_NORM"
+	"pitch"		"PITCH_NORM"
+	"wave"		"weapons/rocket_clipin.wav"
+}
+
+"Weapon_Bazooka.Draw"
+{
+	"channel"		"CHAN_BODY"
+	"volume"		"1.0"
+	"soundlevel"	"SNDLVL_NORM"
+	"pitch"		"PITCH_NORM"
+	"wave"		"weapons/draw_rifle.wav"
+}
+
+"Weapon_Bazooka.WorldReload"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		".77"
+	"soundlevel"	"SNDLVL_65dB"
+	"pitch"		"PITCH_NORM"
+	"wave"		"weapons/rocket_worldreload.wav"
+}

@@ -1,0 +1,24 @@
+
+vertexlitgeneric
+{
+
+	$basetexture models/weapons/frag/v_frag_d
+	$bumpmap dev/bump_normal
+	$lightwarptexture dev/identitylightwarp
+
+	$halflambert 1
+	$ambientocclusion 1
+	$nocull 0
+
+	$phong 0
+	$phongexponent 10
+	$phongboost 1
+ 	$phongfresnelranges "[ 0.1 0.8 0.8 ]"
+	$phongalbedotint 1
+	
+	//$detail detail/metal_detail_01
+	//$detailscale 8
+	//$detailblendfactor 0.95
+	//$detailblendmode 0
+	
+}

@@ -1,0 +1,94 @@
+
+"Default.ClipEmpty_Rifle"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"1.0"
+	"soundlevel"	"SNDLVL_NORM"
+	"pitch"		"PITCH_NORM"
+	"wave"		"weapons/weaponempty.wav"
+}
+
+"Player.ReloadRustle"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"VOL_NORM"
+	"soundlevel"		"SNDLVL_NORM"
+	"pitch"			"PITCH_NORM"
+	"wave"     		"player/reload_rustle.wav"
+}
+
+// Carbine
+
+"Weapon_Carbine.Shoot"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"1.0"
+	"soundlevel"	"SNDLVL_150dB"
+	"pitch"		"PITCH_NORM"
+	"wave"		"^weapons/m1carbine_shoot.wav"
+}
+
+"Weapon_Carbine.BoltBack"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"1.0"
+	"soundlevel"	"SNDLVL_NORM"
+	"pitch"		"PITCH_NORM"
+	"wave"		"weapons/m1carbine_boltback.wav"
+}
+
+
+"Weapon_Carbine.BoltForward"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"1.0"
+	"soundlevel"	"SNDLVL_NORM"
+	"pitch"		"PITCH_NORM"
+	"wave"		"weapons/m1carbine_boltforward.wav"
+}
+
+"Weapon_Carbine.ClipIn1"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"1.0"
+	"soundlevel"	"SNDLVL_NORM"
+	"pitch"		"PITCH_NORM"
+	"wave"		"weapons/m1carbine_clipin1.wav"
+}
+
+"Weapon_Carbine.ClipIn2"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"1.0"
+	"soundlevel"	"SNDLVL_NORM"
+	"pitch"		"PITCH_NORM"
+	"wave"		"weapons/m1carbine_clipin2.wav"
+}
+
+
+"Weapon_Carbine.ClipOut"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"1.0"
+	"soundlevel"	"SNDLVL_NORM"
+	"pitch"		"PITCH_NORM"
+	"wave"		"weapons/m1carbine_clipout.wav"
+}
+
+"Weapon_Carbine.Draw"
+{
+	"channel"		"CHAN_BODY"
+	"volume"		"1.0"
+	"soundlevel"	"SNDLVL_NORM"
+	"pitch"		"PITCH_NORM"
+	"wave"		"weapons/draw_rifle.wav"
+}
+
+"Weapon_Carbine.WorldReload"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		".77"
+	"soundlevel"	"SNDLVL_65dB"
+	"pitch"		"PITCH_NORM"
+	"wave"		"weapons/m1carbine_worldreload.wav"
+}

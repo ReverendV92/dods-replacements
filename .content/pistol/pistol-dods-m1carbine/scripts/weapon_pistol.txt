@@ -1,0 +1,109 @@
+
+//////////////////////////////
+// M1 Carbine
+//////////////////////////////
+
+weapondata
+{
+
+	printname "M1 Carbine"
+	viewmodel models/weapons/v_pistol.mdl
+	playermodel models/weapons/w_pistol.mdl
+	anim_prefix smg2
+	bucket 1
+	bucket_position 0
+	bucket_360 0
+	bucket_position_360 0
+
+	clip_size 15
+	default_clip 15
+	primary_ammo pistol
+
+	weight 0
+	rumble 2
+	item_flags 36
+
+	sounddata
+	{
+
+		// Firing when the weapon is empty
+		empty Default.ClipEmpty_Rifle
+
+		// When a player reloads
+		reload Weapon_Carbine.Draw
+		reload_npc Weapon_Carbine.WorldReload
+
+		single_shot Weapon_Carbine.Shoot
+		single_shot_npc	Weapon_Carbine.Shoot
+
+		// special1 Weapon_Carbine.Draw
+		// special2 Weapon_Carbine.WorldReload
+		// burst Weapon_Carbine.Shoot
+
+	}
+
+	texturedata
+	{
+
+		weapon
+		{
+
+			font weaponicons
+			character d
+
+		}
+
+		weapon_s
+		{	
+
+			font weaponiconsselected
+			character d
+
+		}
+
+		weapon_small
+		{
+
+			font weaponiconssmall
+			character d
+
+		}
+
+		ammo
+		{
+
+			font weaponiconssmall
+			character p
+
+		}
+
+		ammo_small
+		{
+
+			font weaponiconssmall
+			character p
+
+		}
+
+		crosshair
+		{
+
+			font crosshairs
+			character Q
+
+		}
+
+		autoaim
+		{
+
+			file sprites/crosshairs
+			x 0
+			y 48
+			width 24
+			height 24
+
+		}
+
+	}
+
+}

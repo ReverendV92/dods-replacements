@@ -1,0 +1,137 @@
+
+weapondata
+{
+
+	printname "MP 40"
+	viewmodel models/weapons/v_smg1.mdl
+	playermodel models/weapons/w_smg1.mdl
+
+	anim_prefix smg2
+	bucket 2
+	bucket_position 0
+	bucket_360 1
+	bucket_position_360 0
+
+	primary_ammo SMG1
+	clip_size 32
+	default_clip 32
+	
+	secondary_ammo SMG1_Grenade
+	clip2_size -1
+	default_clip2 -1
+
+	weight 0
+	rumble 2
+	item_flags 32
+
+	sounddata
+	{
+
+		single_shot Weapon_SMG1.Single
+		single_shot_npc Weapon_SMG1.NPC_Single
+		double_shot Weapon_SMG1.Double
+		empty Weapon_SMG1.Empty
+		burst Weapon_SMG1.Burst
+		reload Weapon_SMG1.Reload
+		reload_npc Weapon_SMG1.NPC_Reload
+		special1 Weapon_SMG1.Special1
+		special2 Weapon_SMG1.Special2
+
+	}
+
+	texturedata
+	{
+
+		weapon
+		{
+
+			font weaponicons
+			character a
+			// file sprites/hud/dod_weapons01_glow_small
+			// x 399
+			// y 1
+			// width 107
+			// height 49
+			// file sprites/hud/dod_weapons01
+			// x 798
+			// y 2
+			// width 214
+			// height 98
+
+		}
+
+		weapon_s
+		{	
+
+			font weaponicons
+			character a
+			// file sprites/hud/dod_weapons01_glow_small
+			// x 399
+			// y 1
+			// width 107
+			// height 49
+			// file sprites/hud/dod_weapons01
+			// x 798
+			// y 2
+			// width 214
+			// height 98
+
+		}
+
+		weapon_small
+		{
+
+			font weaponicons
+			character a
+			// file sprites/hud/dod_weapons01_glow_small
+			// x 399
+			// y 1
+			// width 107
+			// height 49
+			// file sprites/hud/dod_weapons01
+			// x 798
+			// y 2
+			// width 214
+			// height 98
+
+		}
+
+		ammo
+		{
+			font weaponiconssmall
+			character p
+		}
+
+		ammo2
+		{
+			font weaponiconssmall
+			character v
+		}
+
+		crosshair
+		{
+			font Crosshairs
+			character Q
+		}
+
+		autoaim
+		{
+			font Crosshairs
+			character Q
+		}
+
+		zoom
+		{
+			font Crosshairs
+			character Q
+		}
+
+		zoom_autoaim
+		{
+			font Crosshairs
+			character Q
+		}
+
+	}
+
+}

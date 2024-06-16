@@ -1,0 +1,116 @@
+
+weapondata
+{
+
+	printname "M1A1 Thompson"
+	viewmodel models/weapons/v_smg1.mdl
+	playermodel models/weapons/w_smg1.mdl
+
+	anim_prefix smg2
+	bucket 2
+	bucket_position 0
+	bucket_360 1
+	bucket_position_360 0
+
+	primary_ammo SMG1
+	clip_size 30
+	default_clip 30
+	
+	secondary_ammo SMG1_Grenade
+	clip2_size -1
+	default_clip2 -1
+
+	weight 0
+	rumble 2
+	item_flags 32
+
+	sounddata
+	{
+
+		single_shot Weapon_SMG1.Single
+		single_shot_npc Weapon_SMG1.NPC_Single
+		double_shot Weapon_SMG1.Double
+		empty Weapon_SMG1.Empty
+		burst Weapon_SMG1.Burst
+		reload Weapon_SMG1.Reload
+		reload_npc Weapon_SMG1.NPC_Reload
+		special1 Weapon_SMG1.Special1
+		special2 Weapon_SMG1.Special2
+
+	}
+
+	texturedata
+	{
+
+		weapon
+		{
+			font weaponicons
+			character a
+		}
+		
+		weapon_s
+		{	
+			font weaponiconsselected
+			character a
+		}
+		
+		weapon_small
+		{
+			font weaponiconssmall
+			character a
+		}
+		
+		ammo
+		{
+			font weaponiconssmall
+			character p
+		}
+		
+		crosshair
+		{
+			font crosshairs
+			// font HL2MModCrosshairs
+			character Q
+		}
+		
+		zoom
+		{
+			font crosshairs
+			// font HL2MModCrosshairs
+			character Q
+		}
+		
+		autoaim
+		{
+			font crosshairs
+			// font HL2MModCrosshairs
+			character Q
+		}
+		
+		zoom_autoaim
+		{
+			font crosshairs
+			// font HL2MModCrosshairs
+			character Q
+		}
+
+	}
+
+	// MMod
+	Ironsight
+	{
+		forward -5
+		right -4.53
+		up 2
+		roll 0
+		pitch 0
+		yaw 0
+		fov -15
+		time 0.2
+		crosshair 1
+		chromatic 3.5
+		blur 1
+		adjustaccuracy 0.75 // SMod-only
+	}
+
+}

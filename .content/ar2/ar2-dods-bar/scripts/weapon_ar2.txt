@@ -1,0 +1,137 @@
+
+//////////////////////////////
+// M1918 BAR
+//////////////////////////////
+
+weapondata
+{
+
+	printname "M1918 BAR"
+	viewmodel models/weapons/v_irifle.mdl
+	playermodel models/weapons/w_irifle.mdl
+	anim_prefix ar2
+	bucket 2
+	bucket_position 1
+	bucket_360 1
+	bucket_position_360 2
+
+	clip_size 20
+	default_clip 20
+	primary_ammo ar2
+
+	secondary_ammo ar2altfire
+
+	weight 0
+	rumble 4
+	item_flags 36
+
+	sounddata
+	{
+
+		// When the player fires
+		single_shot Weapon_Bar.Shoot
+
+		// When an NPC fires
+		single_shot_npc Weapon_AR2.NPC_Single
+
+		// When a player fire both barrels / alt-fire
+		double_shot  Weapon_Grenade.Shoot
+
+		// When an NPC fires both barrels / alt-fire
+		double_shot_npc  Weapon_Grenade.Shoot
+
+		// When the player reloads
+		reload Player.ReloadRustle
+
+		// When an NPC reloads
+		reload_npc Weapon_Bar.WorldReload
+
+		// Dry-fire
+		empty Default.ClipEmpty_Rifle
+
+		// Special sound 1
+		special1 Weapon_Bar.SelectorSwitch
+
+	}
+
+	texturedata
+	{
+
+		weapon
+		{
+			font WeaponIcons
+			character l
+		}
+
+		weapon_s
+		{	
+			font WeaponIconsSelected
+			character l
+		}
+
+		weapon_small
+		{
+			font WeaponIconsSmall
+			character l
+		}
+
+		ammo
+		{
+			font WeaponIconsSmall
+			character r
+		}
+
+		ammo2
+		{
+			font WeaponIconsSmall
+			character z
+		}
+
+		crosshair
+		{
+				font crosshairs
+				// font HL2MModCrosshairs
+				character Q
+		}
+
+		zoom
+		{
+				font crosshairs
+				// font HL2MModCrosshairs
+				character Q
+		}
+
+		autoaim
+		{
+			font crosshairs
+			// font HL2MModCrosshairs
+			character Q
+		}
+
+		zoom_autoaim
+		{
+			font crosshairs
+			// font HL2MModCrosshairs
+			character Q
+		}
+
+	}
+
+	// MMod
+	Ironsight
+	{
+		forward -5
+		right -4
+		up 2.7
+		roll 0
+		pitch 0
+		yaw 0
+		fov -15
+		time 0.2
+		crosshair 1
+		chromatic 3.5
+		blur 1
+		adjustaccuracy 0.5 // SMod-only
+	}
+
+}

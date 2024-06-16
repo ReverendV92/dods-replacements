@@ -1,0 +1,115 @@
+
+//////////////////////////////
+// M1911A1
+//////////////////////////////
+
+weapondata
+{
+
+	printname "M1911A1"
+	viewmodel models/weapons/v_pistol.mdl
+	playermodel models/weapons/w_pistol.mdl
+	anim_prefix pistol
+	bucket 1
+	bucket_position 0
+	bucket_360 0
+	bucket_position_360 0
+
+	clip_size 8
+	default_clip 8
+	primary_ammo pistol
+
+	weight 0
+	rumble 2
+	item_flags 36
+
+	sounddata
+	{
+
+		// Firing when the weapon is empty
+		empty Default.ClipEmpty_Rifle
+
+		// When a player reloads
+		reload Weapon_Colt.Draw
+
+		reload_npc	Weapon_Colt.WorldReload
+		single_shot	Weapon_Colt.Shoot
+		single_shot_npc	Weapon_Colt.Shoot
+
+	}
+
+	texturedata
+	{
+
+		weapon
+		{
+			font WeaponIcons
+			character d
+		}
+		
+		weapon_s
+		{	
+			font WeaponIconsSelected
+			character d
+		}
+		
+		weapon_small
+		{
+			font WeaponIconsSmall
+			character d
+		}
+		
+		ammo
+		{
+			font WeaponIconsSmall
+			character p
+		}
+
+		crosshair
+		{
+				font crosshairs
+				// font HL2MModCrosshairs
+				character Q
+		}
+
+		zoom
+		{
+				font crosshairs
+				// font HL2MModCrosshairs
+				character Q
+		}
+
+		autoaim
+		{
+			font crosshairs
+			// font HL2MModCrosshairs
+			character Q
+		}
+
+		zoom_autoaim
+		{
+			font crosshairs
+			// font HL2MModCrosshairs
+			character Q
+		}
+
+	}
+
+	// MMod
+	Ironsight
+	{
+		"forward" "-6"
+		"right" "-2.85"
+		"up" "3.3"
+		"roll" "0"
+		"pitch" "-1"
+		"yaw" "0"
+		"fov" "-15"
+		"time" "0.20"
+		"crosshair" "1"
+		"chromatic" "3.5"
+		"blur" "1.0"
+		"adjustaccuracy" "0.5" // SMod-only
+	}
+
+}

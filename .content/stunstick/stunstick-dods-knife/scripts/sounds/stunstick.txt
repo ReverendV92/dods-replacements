@@ -1,0 +1,166 @@
+
+"Weapon_StunStick.Swing"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"0.7"
+	"soundlevel"	"SNDLVL_NORM"
+	"pitch"			"95,102"
+
+	"rndwave"
+	{
+		"wave" "weapons/blade_swing.wav"
+	}
+}
+
+"Weapon_StunStick.Melee_Miss"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"0.7"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"rndwave"
+	{
+		"wave" "weapons/blade_swing.wav"
+	}
+}
+
+"Weapon_StunStick.Melee_Hit"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"0.7"
+	"soundlevel"	"SNDLVL_105dB"
+	"pitch"			"98,102"
+
+	"rndwave"
+	{
+		"wave" "weapons/blade_hit1.wav"
+		"wave" "weapons/blade_hit2.wav"
+		"wave" "weapons/blade_hit3.wav"
+		"wave" "weapons/blade_hit4.wav"
+	}
+}
+
+"Weapon_StunStick.Melee_HitWorld"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"0.7"
+	"soundlevel"	"SNDLVL_105dB"
+	"pitch"			"98,102"
+
+	"rndwave"
+	{
+		"wave" "weapons/blade_hitworld.wav"
+	}
+}
+
+"Weapon_StunStick.Activate"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"0.7"
+	"soundlevel"	"SNDLVL_NORM"
+	"pitch"			"98,102"
+
+	"rndwave"
+	{
+		"wave" "weapons/draw_knife.wav"
+	}
+}
+
+"Weapon_StunStick.Deactivate"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"0.7"
+	"soundlevel"	"SNDLVL_NORM"
+	"pitch"			"98,102"
+
+	"rndwave"
+	{
+		"wave" "weapons/draw_knife.wav"
+	}
+}
+
+//////
+
+"Player.ReloadRustle"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"VOL_NORM"
+	"soundlevel"		"SNDLVL_NORM"
+	"pitch"			"PITCH_NORM"
+	"wave"     		"player/reload_rustle.wav"
+}
+
+// Melee
+
+"Weapon_Knife.Draw"
+{
+	"channel"		"CHAN_BODY"
+	"volume"		"1.0"
+	"soundlevel"	"SNDLVL_NORM"
+	"pitch"		"PITCH_NORM"
+	"wave"		"weapons/draw_knife.wav"
+}
+
+"Weapon_Knife.Swing"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"1.0"
+	"soundlevel"	"SNDLVL_NORM"
+	"pitch"		"90, 110"
+	"wave"		"weapons/blade_swing.wav"
+		
+	
+}
+
+"Weapon_Knife.SlashPlayer"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"1.0"
+	"soundlevel"	"SNDLVL_NORM"
+	"pitch"		"PITCH_NORM"
+	"rndwave"
+	{
+		"wave"	"weapons/blade_hit1.wav"
+		"wave"	"weapons/blade_hit2.wav"
+		"wave"	"weapons/blade_hit3.wav"
+		"wave"	"weapons/blade_hit4.wav"
+	}
+}
+
+"Weapon_Knife.SlashWorld"
+{
+	"channel"	"CHAN_ITEM"
+	"volume"	"1.0"
+	"soundlevel"	"SNDLVL_NORM"
+	"pitch"		"90, 110"
+	"wave"		"weapons/blade_hitworld.wav"
+}
+
+
+"Weapon_Punch.HitPlayer"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"1.0"
+	"soundlevel"	"SNDLVL_NORM"
+	"pitch"		"PITCH_NORM"
+	"rndwave"
+	{
+		"wave"	")weapons/punch_hit_player2.wav"
+		"wave"	")weapons/punch_hit_player3.wav"
+		"wave"	")weapons/punch_hit_player4.wav"
+	}
+}
+
+"Weapon_Punch.HitWorld"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"1.0"
+	"soundlevel"	"SNDLVL_NORM"
+	"pitch"		"PITCH_NORM"
+	"rndwave"
+	{
+		"wave"	")weapons/punch_hit_player2.wav"
+		"wave"	")weapons/punch_hit_player3.wav"
+		"wave"	")weapons/punch_hit_player4.wav"
+	}
+}

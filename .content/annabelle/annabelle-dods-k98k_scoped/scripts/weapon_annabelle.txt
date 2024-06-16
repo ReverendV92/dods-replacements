@@ -1,0 +1,98 @@
+
+//////////////////////////////
+// Scoped Karabiner 98k
+// Yo, this shit REALLY doesn't work due to the code not being totally fixed in HL2. 
+// Use at your own sanity.
+//////////////////////////////
+
+weapondata
+{
+
+	printname "Scoped K98k"
+	viewmodel models/weapons/v_annabelle.mdl
+	playermodel models/weapons/w_annabelle.mdl
+	anim_prefix ar2
+	bucket 1
+	bucket_position 2
+	bucket_360 0
+	bucket_position_360 2
+
+	clip_size 5
+	default_clip 5
+	primary_ammo 357
+
+	weight 0
+	rumble 2
+	item_flags 36
+
+	sounddata
+	{
+
+		// When an NPC reloads
+		reload_npc Weapon_K98.WorldReload
+
+		// Dry-fire
+		empty Default.ClipEmpty_Rifle
+
+		// When the player fires
+		single_shot Weapon_Kar.Shoot
+
+		// When an NPC fires
+		single_shot_npc Weapon_Kar.Shoot
+
+	}
+
+	texturedata
+	{
+
+		weapon
+		{
+			font WeaponIcons
+			character b
+		}
+		
+		weapon_s
+		{	
+			font WeaponIconsSelected
+			character b
+		}
+		
+		weapon_small
+		{
+			font WeaponIconsSmall
+			character b
+		}
+		
+		ammo
+		{
+			font WeaponIconsSmall
+			character r
+		}
+		
+		crosshair
+		{
+			font crosshairs
+			character Q
+		}
+		
+		zoom
+		{
+			font crosshairs
+			character Q
+		}
+		
+		autoaim
+		{
+			font crosshairs
+			character Q
+		}
+		
+		zoom_autoaim
+		{
+			font crosshairs
+			character Q
+		}
+
+	}
+
+}

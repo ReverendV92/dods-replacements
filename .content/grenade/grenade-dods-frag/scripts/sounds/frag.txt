@@ -1,0 +1,130 @@
+
+//Grenade
+
+"BaseGrenade.BounceSound"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"0.7"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave" "weapons/grenade_hit1.wav"
+	"wave" "weapons/grenade_hit2.wav"
+	"wave" "weapons/grenade_hit3.wav"
+}
+
+// "Grenade.Blip"
+// {
+	// "channel"		"CHAN_WEAPON"
+	// "volume"		"0.95"
+	// "soundlevel"  	"SNDLVL_70dB"
+	// "wave"		"weapons/grenade/tick1.wav"
+// }
+
+"Grenade.Blip"
+{
+	"channel" "CHAN_WEAPON"
+	"volume" "0.95"
+	"soundlevel" "SNDLVL_70dB"
+	"wave" "weapons/grenade_string.wav"
+}
+
+"Weapon_Grenade.Spoon"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		".75"
+	"soundlevel"	"SNDLVL_NORM"
+	"pitch"		"PITCH_NORM"
+	"wave"		"weapons/grenade_spoon.wav"
+}
+
+"Weapon_Grenade.PinPull"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		".50"
+	"soundlevel"	"SNDLVL_NORM"
+	"pitch"		"PITCH_NORM"
+	"wave"		"weapons/grenade_pinpull.wav"
+}
+
+"Weapon_Grenade.String"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"1.0"
+	"soundlevel"	"SNDLVL_NORM"
+	"pitch"		"PITCH_NORM"
+	"wave"		"weapons/grenade_string.wav"
+}
+
+"Weapon_Grenade.Throw"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"1.0"
+	"soundlevel"	"SNDLVL_NORM"
+	"pitch"		"PITCH_NORM"
+	"wave"		"weapons/grenade_throw.wav"
+}
+
+"Weapon_Grenade.Draw"
+{
+	"channel"		"CHAN_BODY"
+	"volume"		"1.0"
+	"soundlevel"	"SNDLVL_NORM"
+	"pitch"		"PITCH_NORM"
+	"wave"		"weapons/draw_grenade.wav"
+}
+
+"HEGrenade.Bounce"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"1"
+	"soundlevel"  	"SNDLVL_35dB"
+	"pitch"		"PITCH_NORM"
+	"wave"		"common/null.wav"
+}
+
+"SmokeGrenade.Bounce"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"1"
+	"soundlevel"  	"SNDLVL_35dB"
+	"pitch"		"PITCH_NORM"
+	"wave"		"common/null.wav"
+}
+
+"BaseGrenade.Explode"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.0"
+	"soundlevel"  	"SNDLVL_115dB"
+	"pitch"		"PITCH_NORM"
+	"rndwave"
+	{
+		"wave"	"^weapons/debris2.wav"
+		"wave"	"^weapons/debris4.wav"
+
+	}
+}
+
+"BaseExplosionEffect.Sound"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"1.0"
+	"soundlevel"	"SNDLVL_150dB"
+	"pitch"		"PITCH_NORM"
+	
+	"rndwave"
+	{
+		"wave"	"^weapons/explode3.wav"
+		"wave"	"^weapons/explode4.wav"
+		"wave"	"^weapons/explode5.wav"
+	}
+}
+
+"BaseSmokeEffect.Sound"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		".75"
+	"soundlevel"	"SNDLVL_150dB"
+	"pitch"		"PITCH_NORM"
+	"wave"		"^weapons/explode_smoke.wav"
+}

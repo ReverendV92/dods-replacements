@@ -1,0 +1,161 @@
+
+//////////////////////////////
+// StG.44
+//////////////////////////////
+
+weapondata
+{
+
+	printname "StG.44"
+	viewmodel models/weapons/v_irifle.mdl
+	playermodel models/weapons/w_irifle.mdl
+	anim_prefix ar2
+	bucket 2
+	bucket_position 1
+	bucket_360 1
+	bucket_position_360 2
+
+	clip_size 30
+	default_clip 30
+	primary_ammo ar2
+
+	secondary_ammo ar2altfire
+
+	weight 0
+	rumble 4
+	item_flags 38
+
+	sounddata
+	{
+
+		// When the player fires
+		single_shot Weapon_StG44.Shoot
+
+		// When an NPC fires
+		single_shot_npc Weapon_AR2.NPC_Single
+
+		// When a player fire both barrels / alt-fire
+		double_shot  Weapon_Grenade.Shoot
+
+		// When an NPC fires both barrels / alt-fire
+		double_shot_npc  Weapon_Grenade.Shoot
+
+		// When the player reloads
+		reload Player.ReloadRustle
+
+		// When an NPC reloads
+		reload_npc Weapon_StG44.WorldReload
+
+		// Dry-fire
+		empty Default.ClipEmpty_Rifle
+
+		// Special sound 1
+		special1 Weapon_StG44.SelectorSwitch
+
+	}
+
+	texturedata
+	{
+
+		weapon
+		{
+
+			file sprites/hud/dod_weapons01_glow_small
+			x 360
+			y 113
+			width 148
+			height 54
+			// file sprites/hud/dod_weapons01
+			// x 720
+			// y 226
+			// width 296
+			// height 108
+
+		}
+
+		weapon_s
+		{	
+
+			file sprites/hud/dod_weapons01_glow_small
+			x 360
+			y 113
+			width 148
+			height 54
+			// file sprites/hud/dod_weapons01
+			// x 720
+			// y 226
+			// width 296
+			// height 108
+
+		}
+
+		weapon_small
+		{
+
+			file sprites/hud/dod_weapons01_glow_small
+			x 360
+			y 113
+			width 148
+			height 54
+			// file sprites/hud/dod_weapons01
+			// x 720
+			// y 226
+			// width 296
+			// height 108
+
+		}
+
+		ammo
+		{
+
+			font weaponiconssmall
+			character r
+
+		}
+
+		ammo2
+		{
+
+			font weaponiconssmall
+			character z
+
+		}
+
+		ammo_small
+		{
+
+			font weaponiconssmall
+			character r
+
+		}
+
+		ammo2_small
+		{
+
+			font weaponiconssmall
+			character z
+
+		}
+
+		crosshair
+		{
+
+			font crosshairs
+			character Q
+
+		}
+
+		autoaim
+		{
+
+			file sprites/crosshairs
+			x 0
+			y 48
+			width 24
+			height 24
+
+		}
+
+	}
+
+}

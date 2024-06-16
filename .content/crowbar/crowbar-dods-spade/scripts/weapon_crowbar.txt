@@ -1,0 +1,100 @@
+
+//////////////////////////////
+// Spade
+//////////////////////////////
+
+weapondata
+{
+
+	printname Spade
+	viewmodel models/weapons/v_crowbar.mdl
+	playermodel models/weapons/w_crowbar.mdl
+	anim_prefix crowbar
+	bucket 0
+	bucket_position 0
+	bucket_360 2
+	bucket_position_360 0
+
+	meleeweapon 1
+
+	weight 0
+	rumble 9
+	item_flags 38
+	camera_movement_scale 1
+
+	sounddata
+	{
+
+		// Swinging the crowbar
+		single_shot Weapon_Spade.Swing
+
+		// Swing and hit a character
+		melee_hit Weapon_Spade.HitPlayer
+
+		// Swing and hit the world
+		melee_hit_world Weapon_Spade.HitWorld
+
+	}
+
+	texturedata
+	{
+
+		weapon
+		{
+
+			font weaponicons
+			character c
+
+		}
+
+		weapon_s
+		{	
+
+			font weaponiconsselected
+			character c
+
+		}
+
+		weapon_small
+		{
+
+			font weaponicons
+			character c
+
+		}
+
+		ammo
+		{
+
+			font weaponiconssmall
+			character c
+
+		}
+
+		ammo_small
+		{
+
+			font weaponiconssmall
+			character c
+
+		}
+
+		crosshair
+		{
+
+			font crosshairs
+			character Q
+
+		}
+
+		autoaim
+		{
+
+			font crosshairs
+			character Q
+
+		}
+
+	}
+
+}

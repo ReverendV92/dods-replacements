@@ -1,0 +1,106 @@
+
+//////////////////////////////
+// Spade
+//////////////////////////////
+
+weapondata
+{
+
+	printname "Spade"
+	viewmodel models/weapons/v_stunbaton.mdl
+	playermodel models/weapons/w_stunbaton.mdl
+	anim_prefix stunbaton
+	bucket 0
+	bucket_position 2
+	bucket_360 2
+	bucket_position_360 3
+
+	clip_size -1
+	primary_ammo None
+	secondary_ammo None
+
+	weight 0
+	rumble 9
+	item_flags 0
+	meleeweapon 1
+	camera_movement_scale 0.05
+
+	sounddata
+	{
+
+		// Swinging the crowbar
+		single_shot Weapon_Spade.Swing
+
+		// Swing & Miss
+		melee_miss Weapon_Spade.Swing
+
+		// Swing and hit a character
+		melee_hit Weapon_Spade.HitPlayer
+
+		// Swing and hit the world
+		melee_hit_world Weapon_Spade.HitWorld
+
+	}
+
+	texturedata
+	{
+
+		weapon
+		{
+
+			font weaponicons
+			character n
+
+		}
+
+		weapon_s
+		{	
+
+			font weaponiconsselected
+			character n
+
+		}
+
+		weapon_small
+		{
+
+			font weaponicons
+			character n
+
+		}
+
+		ammo
+		{
+
+			font weaponiconssmall
+			character n
+
+		}
+
+		ammo_small
+		{
+
+			font weaponiconssmall
+			character n
+
+		}
+
+		crosshair
+		{
+
+			font crosshairs
+			character Q
+
+		}
+
+		autoaim
+		{
+
+			font crosshairs
+			character Q
+
+		}
+
+	}
+
+}
